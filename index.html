@@ -8,7 +8,7 @@
     <style>
         body {
             font-family: 'Segoe UI', sans-serif;
-            background-color: #f5f5f5;
+            background-color: #f9f9f9;
             color: #1d1d1d;
             margin: 0;
             padding: 0;
@@ -18,7 +18,7 @@
             margin: 2rem auto;
             background: white;
             padding: 2rem;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            box-shadow: 0 0 10px rgba(0,0,0,0.05);
             border-radius: 8px;
         }
         .logo {
@@ -26,17 +26,21 @@
             margin: 0 auto 1.5rem auto;
             max-width: 200px;
         }
-        h1, h2 {
+        h1 {
             text-align: center;
-            margin: 0.5rem 0;
+            margin: 1rem 0 0.5rem 0;
         }
         p {
             line-height: 1.6;
         }
         .contact {
-            margin-top: 2rem;
-            padding-top: 1rem;
+            margin-top: 2.5rem;
+            padding-top: 1.5rem;
             border-top: 1px solid #ddd;
+        }
+        .contact h2 {
+            text-align: center;
+            margin-bottom: 1rem;
         }
         .contact p, .contact a {
             text-align: center;
@@ -45,8 +49,13 @@
             text-decoration: none;
             color: #1d1d1d;
         }
-        .linkedin a {
+        .contact a:hover {
             color: #0077b5;
+        }
+        .linkedin-icon {
+            width: 20px;
+            vertical-align: middle;
+            margin-right: 8px;
         }
     </style>
 </head>
@@ -72,11 +81,19 @@
             Pracuję z konstrukcjami żelbetowymi, stalowymi i zespolonymi – od hal i wież po silosy,
             ściany oporowe i studnie.
         </p>
+
         <div class="contact">
+            <h2>Kontakt</h2>
             <p>📧 <a href="mailto:p.kulwinski@cubri.pl">p.kulwinski@cubri.pl</a></p>
             <p>📞 <a href="tel:+48789180006">+48 789 180 006</a></p>
+            <p>📍 Zbigniewa Herberta 16, 83-330 Pępowo</p>
             <p>NIP: 5882393173</p>
-            <p class="linkedin">🔗 <a href="https://www.linkedin.com/in/przemyslaw-kulwinski/" target="_blank">LinkedIn – Przemysław Kulwiński</a></p>
+            <p>
+                <a href="https://www.linkedin.com/in/przemyslaw-kulwinski/" target="_blank">
+                    <img src="linkedin-icon.png" class="linkedin-icon" alt="LinkedIn">
+                    LinkedIn – Przemysław Kulwiński
+                </a>
+            </p>
         </div>
     </div>
 </body>
